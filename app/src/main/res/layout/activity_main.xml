@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/desktop_wallpaper_black_wolf_top_black_wolf_background_wolf"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/linear"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:text="@string/travel_photos_app" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/desktop_wallpaper_black_wolf_top_black_wolf_background_wolf"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.311"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.039"
+            tools:src="@drawable/desktop_wallpaper_quote_on_the_value_of_time_by_zig_ziglar_thumbnail" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/travelimages"
+            android:src="@android:drawable/ic_media_next"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+           />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/previoss_button"
+            android:src="@android:drawable/ic_media_previous"
+            tools:ignore="MissingConstraints"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

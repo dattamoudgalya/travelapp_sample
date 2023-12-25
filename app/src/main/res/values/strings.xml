@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">travel</string>
+    <string name="travel_app">Travel App</string>
+    <string name="travel_photos_app">Travel Photos App</string>
+    <string name="travelimages">TravelImages</string>
+    <string name="previoss_button">previoss button</string>
+</resources>
